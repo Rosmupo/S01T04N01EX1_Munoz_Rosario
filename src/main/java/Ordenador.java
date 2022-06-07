@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+// Se crea una clase que inserte en una lista ordenada
+// los nombres de los meses del año
+
 public class Ordenador {
 
     ArrayList<Month> monthlist;
@@ -7,7 +10,6 @@ public class Ordenador {
     public Ordenador() {
         monthlist = new ArrayList<>();
     }
-
     public ArrayList<Month> getMonthsList(){
 
         Month month0 = new Month("Enero");
